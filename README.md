@@ -30,7 +30,29 @@ A maioria dos nós estão em (azul/verde). Isso significa que a maior parte da e
 
 ![Closeness Centrality Distribution](https://github.com/user-attachments/assets/6c5b54b2-5c5b-497a-af8f-f2c55b1adcaa)  
 
-A maioria dos nós são periféricos. O gráfico de distribuição confirma que a grande maioria dos nós (resíduos) possui uma baixa pontuação de proximidade, com valores concentrados perto de zero.
+A maioria dos nós são periféricos. O gráfico de distribuição confirma que a grande maioria dos nós (resíduos) possui uma baixa pontuação de proximidade, com valores concentrados perto de zero.  
+
+### Betweenness Centrality (Azul → Vermelho):  
+
+![image](https://github.com/user-attachments/assets/b49f05b4-6933-4fd7-8d47-5bf5e7966a84)  
+
+A rede da proteína possui pontos de controle e vulnerabilidade bem definidos.    
+
+![Betweenness Centrality Distribution](https://github.com/user-attachments/assets/675771cc-e4d1-4d4f-97da-aed153983e70)
+
+O gráfico reforça que a esmagadora maioria dos resíduos não participa dos caminhos mais curtos entre outras partes da rede.  
+
+### Degree Centrality (Azul → Vermelho):  
+
+![image](https://github.com/user-attachments/assets/d8e72ca0-bde8-4f4c-b65e-a97239fa770b)  
+
+Os nós maiores e de cor mais quente (vermelho e laranja) são os hubs da rede. Eles são os resíduos que possuem o maior número de conexões diretas e atuam como pontos centrais de ancoragem em suas vizinhanças.  
+
+![degree-distribution](https://github.com/user-attachments/assets/ad1c309b-21c5-42cd-a958-e603801ac1ae)  
+
+O gráfico reforça que a estrutura é mantida por um pequeno número de hubs muito importantes que concentram um grande número de interações, enquanto a vasta maioria dos nós forma apenas conexões locais.
+
+
 
 
 
