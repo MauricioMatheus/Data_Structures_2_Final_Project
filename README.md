@@ -61,7 +61,17 @@ Na sequência, foram analisados o k-core e k-shell da rede.
 
 ![image](https://github.com/user-attachments/assets/b571a236-eae3-475f-b9c5-e171823b1136)  
 
-A rede não é uniforme, mas organizada com camadas de densidade distintas. Ela possui um núcleo pequeno (o 3-core), um corpo estrutural principal (a 2-shell) e uma vasta periferia de nós com poucas conexões (as camadas 0 e 1), o que indica uma estrutura robusta e estável em seu centro.
+A rede não é uniforme, mas organizada com camadas de densidade distintas. Ela possui um núcleo pequeno (o 3-core), um corpo estrutural principal (a 2-shell) e uma vasta periferia de nós com poucas conexões (as camadas 0 e 1), o que indica uma estrutura robusta e estável em seu centro.  
+
+### Requisito 3: Comunidades e Modularidade  
+
+Por fim, transformamos a rede de proteínas estática em uma visualização de web interativa e "em produção", permitindo a exploração dinâmica do grafo. Para isso, a rede foi primeiramente analisada no Gephi para detectar comunidades através do cálculo de Modularidade, onde cada comunidade (grupo de nós densamente conectados) foi representada por uma cor distinta. O tamanho dos nós foi definido pelo grau.  
+
+Link para a visuailzação web interativa: https://steady-sundae-a3f31d.netlify.app/  
+
+Conclui-se que a análise de comunidades e modularidade revela que a sua rede de proteínas é altamente organizada e modular.
+
+
 
 
 
