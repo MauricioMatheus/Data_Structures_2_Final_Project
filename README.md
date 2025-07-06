@@ -57,7 +57,7 @@ O gráfico reforça que a estrutura é mantida por um pequeno número de hubs mu
 
 Na sequência, foram analisados o k-core e k-shell da rede.
 
-### K-core and K-shell:
+### K-core and K-shell (Preto → Cinza → Azul → Vermelho):
 
 ![image](https://github.com/user-attachments/assets/b571a236-eae3-475f-b9c5-e171823b1136)  
 
