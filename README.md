@@ -50,7 +50,18 @@ Os nós maiores e de cor mais quente (vermelho e laranja) são os hubs da rede. 
 
 ![degree-distribution](https://github.com/user-attachments/assets/ad1c309b-21c5-42cd-a958-e603801ac1ae)  
 
-O gráfico reforça que a estrutura é mantida por um pequeno número de hubs muito importantes que concentram um grande número de interações, enquanto a vasta maioria dos nós forma apenas conexões locais.
+O gráfico reforça que a estrutura é mantida por um pequeno número de hubs muito importantes que concentram um grande número de interações, enquanto a vasta maioria dos nós forma apenas conexões locais.  
+
+
+### Requisito 2: K-core e K-shell  
+
+Na sequência, foram analisados o k-core e k-shell da rede.
+
+### K-core and K-shell:
+
+![image](https://github.com/user-attachments/assets/b571a236-eae3-475f-b9c5-e171823b1136)  
+
+A rede não é uniforme, mas organizada com camadas de densidade distintas. Ela possui um núcleo pequeno (o 3-core), um corpo estrutural principal (a 2-shell) e uma vasta periferia de nós com poucas conexões (as camadas 0 e 1), o que indica uma estrutura robusta e estável em seu centro.
 
 
 
