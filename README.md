@@ -3,7 +3,9 @@
 ## Autores: 
 ### • Lucas Garcia Costa   
 
-### • Maurício Matheus Araújo Silva Galvão  
+### • Maurício Matheus Araújo Silva Galvão    
+
+Link do vídeo explicativo: https://youtu.be/dUB-AmqJT9U
 
 Neste projeto, além das bibliotecas do Python `Networkx`, `Matplotlib`, `Pandas` e `Numpy` também foi utilizado o Gephi para auxílio das análises de redes complexas.   
 
