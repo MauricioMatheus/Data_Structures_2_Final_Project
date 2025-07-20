@@ -126,13 +126,63 @@ A maioria dos nós tem poucas conexões, enquanto um pequeno número de "hubs" c
 
 <img width="779" height="836" alt="image" src="https://github.com/user-attachments/assets/2f7dcc8c-3098-493a-b45d-fb559b80ef11" />  
 
-É possível visualizar uma clara organização em camadas de densidade, com um núcleo bem definido. O grupo de nós em vermelho representa o 2-core, o núcleo mais denso e estável da rede. Este é o "coração" estrutural, fundamental para a estabilidade da molécula.   
+• É possível visualizar uma clara organização em camadas de densidade, com um núcleo bem definido. O grupo de nós em vermelho representa o 2-core, o núcleo mais denso e estável da rede. Este é o "coração" estrutural, fundamental para a estabilidade da molécula;   
 
-Os nós em ciano formam o 1-shell, a camada intermediária que constitui o corpo principal da proteína e conecta o núcleo à periferia.   
+• Os nós em ciano formam o 1-shell, a camada intermediária que constitui o corpo principal da proteína e conecta o núcleo à periferia;   
 
-Os nós em cinza são o 0-shell, a camada mais externa e menos conectada, representando a superfície flexível da estrutura.  
+• Os nós em cinza são o 0-shell, a camada mais externa e menos conectada, representando a superfície flexível da estrutura.  
 
 ## Requisito 3:  
+
+### Distribuição de grau (PDF)  
+
+<img width="576" height="455" alt="image" src="https://github.com/user-attachments/assets/be906f89-dbea-419d-9f14-42ddf9a526fb" />  
+
+Pode-se observar que os graus mais comuns (mais prováveis) na rede são 0 a 2, os quais são os picos do histograma. A probabilidade diminnui rapidamente para graus mais altos.  
+
+### Distribuição de grau (CDF)  
+
+<img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/51ce441b-7be5-4d22-8b32-6ba27a97f782" />  
+
+Podemos visualizar a soma das probabilidades. Ao somar as probabilidades dos nós de grau 0, 1 e 2, já se cobre aproximadamente 70% de todos os nós da rede.  
+
+### Quartis  
+
+<img width="155" height="91" alt="image" src="https://github.com/user-attachments/assets/fe3c5d32-88e7-4ecf-9935-bad793c8e038" />  
+
+• Em 25% (0.25) o valor é 1.0. Significa que 25% de todos os nós da rede têm grau 1 ou menos;  
+
+• Em 50% (0.50, Mediana) o valor é 2.0. Significa que metade de todos os nós da rede tem 2 ou menos conexões;  
+
+• 75% (0.75): O valor é 3.0. 75% de todos os nós têm grau 3 ou menos.    
+
+### Análise multivariável  
+
+<img width="985" height="986" alt="image" src="https://github.com/user-attachments/assets/92e30d27-cd34-452f-bfff-3dcb0ff1dbd2" />  
+
+• O pair plot representa fortes correlações positivas entre Degree Centrality, Closeness Centrality e Eigenvector Centrality, formando uma tendência diagonal clara, subindo da esquerda para direita. Com esses resultados podemos concluir que na nossa proteína, os nós que possuem os graus mais altos também tendem a ser os mais eficientes para espalhar informação (Alta proximidade) e os mais influentes (alto autovetor).  
+
+• A Betweenness Centrality também se correlaciona positivamente com as outras, mas a relação é mais desorganizada (Os pontos estão espalhados). Isso revela que nem todo nó com muias conexões é necessariamente uma ponte.  
+
+## Requisito 4:  Comunidades e Modularidade  
+
+Por fim, transformamos a rede de proteínas em uma visualização de web interativa e "em produção", permitindo a exploração dinâmica do grafo.   
+
+Link para a visualização web interativa:  
+
+https://silly-khapse-c9f5b9.netlify.app/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
