@@ -79,6 +79,87 @@ Conclui-se que a análise de comunidades e modularidade revela que a sua rede de
 
 # Parte 2  
 
+Na parte 2 do projeto, optamos por analisar o fator de crescimento 1GZR, fazendo um processo de estudo bastante parecido com a primeira parte.  
+
+### Fator de crescimento 1GZR
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/0312e18f-178a-4365-adb9-e815ecabbb4f" />    
+
+## Requisito 1: 
+
+Foi feita a distribuição dos nós com utilização do ForceAtlas2 e posteriormente os vértices foram analisados com base em suas quantidades de vizinhos. As cores foram relacionadas a:  
+
+### Eigenvector Centrality (Azul → Vermelho):  
+
+<img width="714" height="816" alt="image" src="https://github.com/user-attachments/assets/5d395d32-85ce-4900-99c9-4f66f970752d" />  
+
+<img width="600" height="400" alt="eigenvector-centralities" src="https://github.com/user-attachments/assets/92aad781-50eb-4552-9d3f-e3592f4ae1b5" />      
+
+A influência na rede é altamente concentrada e hierárquica. A rede é dominada por um pequeno grupo de nós influentes que se reforçam mutuamente, enquanto a maioria dos outros nós atua como uma periferia com pouca ou nenhuma influência na dinâmica global.  
+
+
+### Closeness Centrality (Azul → Vermelho):  
+
+<img width="789" height="825" alt="image" src="https://github.com/user-attachments/assets/7eaeb56c-9bc1-4426-99d9-e89a21dc1b95" />  
+
+<img width="600" height="400" alt="Closeness Centrality Distribution" src="https://github.com/user-attachments/assets/649f0fdb-857d-48b9-8f4b-acfdd6af6cfe" />  
+
+A estrutura de núcleo-periferia é bem definida. A maioria dos nós está na periferia, enquanto um pequeno núcleo de nós é muito eficiente para alcançar toda a rede (valores altos).  
+
+### Betweenness Centrality (Azul → Vermelho):  
+
+<img width="786" height="776" alt="image" src="https://github.com/user-attachments/assets/b5df0e73-8657-4d32-8f6b-cbbe05ecdcb4" />  
+
+<img width="600" height="400" alt="Betweenness Centrality Distribution" src="https://github.com/user-attachments/assets/1b2d8a79-9537-41cd-9536-f7d22a3a1a1b" />  
+
+A função de "ponte" é altamente especializada, com a vasta maioria dos nós tendo intermediação zero. A comunicação entre diferentes regiões da rede depende de um grupo muito pequeno e exclusivo de nós críticos.  
+
+### Degree Centrality (Azul → Vermelho):  
+
+<img width="791" height="849" alt="image" src="https://github.com/user-attachments/assets/1b5281f2-db0e-426e-b04e-1152f752b56c" />  
+
+<img width="600" height="400" alt="degree-distribution" src="https://github.com/user-attachments/assets/eb00a751-d0e1-435f-84b2-027be45f949e" />  
+
+A maioria dos nós tem poucas conexões, enquanto um pequeno número de "hubs" concentra muitas interações. Isso revela uma rede heterogênea e robusta, típica de sistemas biológicos.  
+
+## Requisito 2: K-core e K-shell  
+
+<img width="779" height="836" alt="image" src="https://github.com/user-attachments/assets/2f7dcc8c-3098-493a-b45d-fb559b80ef11" />  
+
+É possível visualizar uma clara organização em camadas de densidade, com um núcleo bem definido. O grupo de nós em vermelho representa o 2-core, o núcleo mais denso e estável da rede. Este é o "coração" estrutural, fundamental para a estabilidade da molécula.   
+
+Os nós em ciano formam o 1-shell, a camada intermediária que constitui o corpo principal da proteína e conecta o núcleo à periferia.   
+
+Os nós em cinza são o 0-shell, a camada mais externa e menos conectada, representando a superfície flexível da estrutura.  
+
+## Requisito 3:  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
