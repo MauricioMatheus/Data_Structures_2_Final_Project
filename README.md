@@ -1,4 +1,8 @@
-# Grafos e Estruturas Complexas
+# Grafos e Estruturas Complexas  
+
+# Parte 1
+
+
 
 ## Autores: 
 ### • Lucas Garcia Costa   
@@ -71,7 +75,11 @@ Por fim, transformamos a rede de proteínas estática em uma visualização de w
 
 Link para a visuailzação web interativa: https://steady-sundae-a3f31d.netlify.app/  
 
-Conclui-se que a análise de comunidades e modularidade revela que a sua rede de proteínas é altamente organizada e modular.
+Conclui-se que a análise de comunidades e modularidade revela que a sua rede de proteínas é altamente organizada e modular.  
+
+# Parte 2  
+
+
 
 
 
