@@ -79,6 +79,8 @@ Conclui-se que a análise de comunidades e modularidade revela que a sua rede de
 
 # Parte 2  
 
+Link para o vídeo explicativo: https://www.youtube.com/watch?v=madSGTE3deQ&ab_channel=Maur%C3%ADcioMatheus  
+
 Na parte 2 do projeto, optamos por analisar o fator de crescimento 1GZR, fazendo um processo de estudo bastante parecido com a primeira parte.  
 
 ### Fator de crescimento 1GZR
